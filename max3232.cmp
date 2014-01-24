@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 09.03.2012 01:40:09
+
+BeginCmp
+TimeStamp = /4F593C59;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F593C62;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F593C8B;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F593C80;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F595111;
+Reference = C5;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F593CF9;
+Reference = J1;
+ValeurCmp = DB9;
+IdModule  = DB9F_CI;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F593DB0;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F593BF7;
+Reference = U1;
+ValeurCmp = MAX232;
+IdModule  = SO16N;
+EndCmp
+
+EndListe

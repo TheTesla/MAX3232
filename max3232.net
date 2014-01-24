@@ -1,0 +1,138 @@
+# EESchema Netlist Version 1.1 created  09.03.2012 11:40:59
+(
+ ( /4F595111 $noname  C5 100nF {Lib=C}
+  (    1 N-000013 )
+  (    2 GND )
+ )
+ ( /4F593DB0 $noname  P1 CONN_4 {Lib=CONN_4}
+  (    1 N-000013 )
+  (    2 N-000020 )
+  (    3 N-000019 )
+  (    4 GND )
+ )
+ ( /4F593CF9 $noname  J1 DB9 {Lib=DB9}
+  (    1 ? )
+  (    2 N-000012 )
+  (    3 N-000007 )
+  (    4 ? )
+  (    5 GND )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+ )
+ ( /4F593C8B $noname  C3 100nF {Lib=C}
+  (    1 N-000013 )
+  (    2 N-000014 )
+ )
+ ( /4F593C80 $noname  C4 100nF {Lib=C}
+  (    1 GND )
+  (    2 N-000008 )
+ )
+ ( /4F593C62 $noname  C2 100nF {Lib=C}
+  (    1 N-000018 )
+  (    2 N-000017 )
+ )
+ ( /4F593C59 $noname  C1 100nF {Lib=C}
+  (    1 N-000016 )
+  (    2 N-000015 )
+ )
+ ( /4F593BF7 $noname  U1 MAX232 {Lib=MAX232}
+  (    1 N-000016 )
+  (    2 N-000014 )
+  (    3 N-000015 )
+  (    4 N-000018 )
+  (    5 N-000017 )
+  (    6 N-000008 )
+  (    7 N-000012 )
+  (    8 N-000007 )
+  (    9 N-000020 )
+  (   10 N-000019 )
+  (   11 GND )
+  (   12 ? )
+  (   13 N-000010 )
+  (   14 N-000010 )
+  (   15 GND )
+  (   16 N-000013 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component J1
+ DB9*
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ U1 11
+ U1 15
+ C5 2
+ P1 4
+ J1 5
+ C4 1
+Net 7 "" ""
+ J1 3
+ U1 8
+Net 8 "" ""
+ C4 2
+ U1 6
+Net 10 "" ""
+ U1 14
+ U1 13
+Net 12 "" ""
+ J1 2
+ U1 7
+Net 13 "" ""
+ C5 1
+ U1 16
+ P1 1
+ C3 1
+Net 14 "" ""
+ U1 2
+ C3 2
+Net 15 "" ""
+ C1 2
+ U1 3
+Net 16 "" ""
+ C1 1
+ U1 1
+Net 17 "" ""
+ U1 5
+ C2 2
+Net 18 "" ""
+ U1 4
+ C2 1
+Net 19 "" ""
+ P1 3
+ U1 10
+Net 20 "" ""
+ U1 9
+ P1 2
+}
+#End
